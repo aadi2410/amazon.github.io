@@ -1,0 +1,43 @@
+form{
+    border: 2px solid black;
+    width: 20%;
+    display: grid;
+    justify-content: center;
+    background-color: rgb(129, 129, 102);
+}
+.form-signin{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 30px;
+   
+}
+.form-signin div{
+    padding: 5px;
+}
+.form-signin button{
+    width: 70%;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: rgb(190, 190, 38);
+}
+
+.form-floating label{
+    display: inline-block;
+    background-color: aliceblue;
+    color: black;
+    padding: 5px;
+    margin-bottom: 3px;
+}
+.form-floating input{
+    padding: 2px;
+    width: 100%;
+}
+.ama{
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin-bottom: -30px;
+}
